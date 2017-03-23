@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  font-size: 40pt;
+  margin: 20px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+i {
+  color: #000;
+}
+
+.top-border {
+  display: inline-block;
+  border-top: 2px solid #000;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.settings {
+  display: inline-block;
+  width: 50%;
+  height: 150px;
+  padding: 40px 80px 0px 80px;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 40pt;
+}
+
+.settings .header {
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+#timer {
+  float: left;
+  text-align: right;
+}
+
+#break {
+  float: right;
+}
+
+#state {
+  text-transform: uppercase;
+  font-size: 16pt;
+  padding: 30px;
+}
+
+#clock {
+  font-size: 60pt;
+  padding: 30px;
+}
